@@ -55,7 +55,7 @@ def random_dog() -> Dict[str, Any]:
     r.raise_for_status()
     return r.json()
 
-# ---- (Optional) Trivia (Open Trivia DB) ----
+# ---- Trivia (Open Trivia DB) ----
 @mcp.tool()
 def trivia() -> Dict[str, Any]:
     """Return one multiple-choice trivia question."""
